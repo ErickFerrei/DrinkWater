@@ -109,8 +109,9 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("visibilitychange", function () {
   if (document.hidden) {
     console.log("Página em segundo plano");
-    
+    startReminder();
   } else {
     console.log("Página ativa");
+    startReminder();
   }
 });
