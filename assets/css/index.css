@@ -1,0 +1,7 @@
+/*Importação da pasta GLOBAL */
+@import url("./global/normalize.css");
+@import url("./global/variables.css");
+
+/*Importação da pastas PAGES*/
+
+@import url("./pages/index/index.css");

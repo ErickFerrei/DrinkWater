@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="shortcut icon"
+      href="./assets/files/icons/icon-water.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <title>DRINK WATER</title>
+  </head>
+  <body>
+    <section class="container">
+      <h1>Lembrete de Beber Água</h1>
+      <p>Defina o intervalo de tempo (em minutos) para receber notificações:</p>
+      <input
+        type="number"
+        id="interval"
+        min="1"
+        placeholder="Digite o intervalo em minutos"
+      />
+      <div class="buttons">
+        <button id="start">Iniciar</button>
+        <button id="stop" style="display: none">Parar</button>
+      </div>
+
+      <div id="status"></div>
+    </section>
+
+    <script type="module" src="./assets/js/app.js"></script>
+  </body>
+</html>

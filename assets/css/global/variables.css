@@ -1,0 +1,17 @@
+:root {
+  /*Cores padrão do Projeto*/
+  --cor-preto: #111527;
+  --cor-branco: #ffffff;
+
+  /*Fontes padrão do Projeto*/
+  --regular: "font-regular";
+  --bold: "font-bold";
+
+  /*Tamanhos padrão do Projeto*/
+  --f1: clamp(0.8rem, 1vw, 1rem);
+  --f2: clamp(1rem, 1vw, 1.2rem);
+  --f3: clamp(1.2rem, 1vw, 1.5rem);
+  --f4: clamp(1.5rem, 1vw, 2rem);
+  --f5: clamp(2rem, 1vw, 4rem);
+  --f6: clamp(4rem, 1vw, 6rem);
+}
